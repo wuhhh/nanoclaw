@@ -4,6 +4,9 @@ node_modules/
 # Build output
 dist/
 
+# Private instructions
+CLAUDE.local.md
+
 # Local data & auth
 store/
 data/
