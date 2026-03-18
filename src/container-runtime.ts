@@ -54,7 +54,7 @@ export function readonlyMountArgs(
   hostPath: string,
   containerPath: string,
 ): string[] {
-  return ['-v', `${hostPath}:${containerPath}:ro`];
+  return ['-v', `${hostPath}:${containerPath}:ro,z`];
 }
 
 /** Returns the shell command to stop a container by name. */
